@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    background-image: linear-gradient(to right,#26658C9A,#3F9BBF,#63D8F2);
+    
+}
+
+.container {
+    max-width: 64rem;
+    margin: 7% auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 50%;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: #0a546e;
+}
+
+
+button.btn-tarefa{
+    background: #70dff8be;
+    border-radius: 0.3rem;
+    color: #0a546e;
+    padding: 0.5% 1% 0.5% 1%;
+    border:2px solid #3F9BBF;
+}
+
+button {
+    background: #70dff8be;
+    border-radius: 0.3rem;
+    color: #0a546e;
+    padding: 0.3%;
+    border:1px solid #3F9BBF;
+    margin-left: 1%;
+}
+
+@media (max-width: 760px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--primary-color);
+        font-family: 'Open sans', sans-serif;
+        font-size: 1.3em;
+        line-height: 1.2em;
+        background-image: linear-gradient(to right,#26658C9A,#3F9BBF,#63D8F2);
+        
+    }
+    
+    .container {
+        margin: 7% auto;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 2rem;
+        width: 85%;
+    }
+    
+    .container h1 {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 5%;
+        color: #0a546e;
+    }
+    
+    button.btn-tarefa{
+        background: #70dff8be;
+        border-radius: 0.3rem;
+        color: #0a546e;
+        padding: 0.5% 1% 0.5% 1%;
+        border:2px solid #3F9BBF;
+    }
+    
+    button {
+        background: #70dff8be;
+        border-radius: 0.3rem;
+        color: #0a546e;
+        padding: 0.3%;
+        border:1px solid #3F9BBF;
+        margin-left: 1%;
+    }
+}

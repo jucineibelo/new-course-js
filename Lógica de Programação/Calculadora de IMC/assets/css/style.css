@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color:#347dcc; 
+    --primary-color-dark:#1b538f; 
+}
+
+* {
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+.container {
+    max-width: 64rem;
+    margin: 4rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.container table {
+    width: 90%;
+    border: 1px solid var(--primary-color-dark);
+    margin: 0 auto;
+}
+.container table thead {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.container table td {
+    border: 1px solid var(--primary-color-dark);
+}
+
+.container table tbody {
+    font-size: 0.8rem;
+}
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form input {
+    font-size: 1.3rem;
+    height: 2rem;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color) ;
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.paragrafo-resultado {
+    background: rgb(44, 151, 44);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(187, 61, 61);
+    padding: 10px 20px;
+}
